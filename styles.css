@@ -1,0 +1,106 @@
+body {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border: 1px solid #ebebeb;
+	padding: 0px 0px 45px 0px;
+
+	color: #464646;
+}
+
+/* Navigation Bar */
+
+header {
+	width: 100%;
+	background-color: #ebebeb;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navigation {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav {
+    display: block;
+    float: left;
+}
+
+.nav>a:link, .nav>a:visited {
+    display: inline-block;
+    width: 150px;
+    color: #464646;
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    font-family: 'Optima';
+    font-size: 16px;
+}
+
+.nav>a:hover, .nav>a:active {
+    background-color: #FFF;
+}
+/* End Navigation Bar */
+
+/* Name and Subheading */
+
+#tophalf {
+	width:75%;
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+}
+
+h1 {
+	font-family: 'CenturyGothic';
+	font-size: 55px;
+	color: #081c58;
+
+	margin: 45px 45px 5px 45px;
+}
+
+.subheading {
+	font-family: 'Optima';
+	font-size: 18px;
+	margin: 0px 18px 18px 18px;
+	color: ##464646;
+}
+/* End Name and Subheading */
+
+/* Social Media Buttons */
+#social {
+	width: 75%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socialcircle {
+	display: block;
+    float: left;
+
+	padding: 0px 10px 0px 10px;
+
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.socialcircle img {
+	width: 48px;
+}
+
+/* End Social Media Buttons */
+    
+
+#bottomhalf {
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+}
