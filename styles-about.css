@@ -4,7 +4,7 @@ body {
 
 #wrapper {
 	width: 650px;
-	height: 612px;
+	height: 720px;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -88,16 +88,32 @@ h1 {
 }
 /* End Name and Subheading */
 
-/* Footer */
-footer {
-	display: block;
-	clear: left;
-	width: 650px;
-	height: 25px;
-	background-color: #ebebeb;
+#bottomhalf {
+	width: 75%;
+	clear:left;
+
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 25px;
+
+}
+.column {
+	clear:left;
+	padding: 0 0 0 0px;
+
+	font-family: 'Optima';
+	font-size: 14px;
+	margin: 0px 18px 18px 18px;
+	color: #464646;
+	text-align: left;
+}
+
+
+/* Footer */
+footer {
+	width: 650px;
+	height: 25px;
+	margin: 25px 50px 0 0;
+	background-color: #ebebeb;
 }
 
 .footer {

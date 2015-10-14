@@ -4,7 +4,7 @@ body {
 
 #wrapper {
 	width: 650px;
-	height: 612px;
+	height: 625px;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -35,7 +35,7 @@ header {
 
 .nav {
     width: 20%;
-    height: 35px;
+    height: 30%;
     display: block;
     float: left;
     text-align: center;
@@ -87,6 +87,44 @@ h1 {
 	color: #464646;
 }
 /* End Name and Subheading */
+
+#bottomhalf {
+	width: 75%;
+	clear:left;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left, #right {
+	width: 225px;
+	float: left;
+
+	font-family: 'Optima';
+	font-size: 14px;
+	line-height: 18px;
+	color: #464646;
+	text-align: left;
+}
+
+#right {
+	padding-left: 35px;
+}
+
+li {
+	margin-top: 10px;
+}
+
+li > a {
+	text-decoration: none;
+}
+
+li >a:hover {
+	color: #081c58;
+	font-weight: bold; 
+}
+
+
 
 /* Footer */
 footer {
