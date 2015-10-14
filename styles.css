@@ -130,9 +130,14 @@ h1 {
 	width: 100px;
 } 
 
-.circle>a:hover {
-	background-image: url("images/about-blue.png");
-}  
+.title {
+	text-decoration: none;
+}
+
+.title:hover {
+	color: #081c58;
+	font-weight: bold; 
+} 
 
 /* Footer */
 footer {
