@@ -1,3 +1,4 @@
+/* Page Setup */
 body {
 	background-color: ;
 }
@@ -5,6 +6,7 @@ body {
 #wrapper {
 	width: 650px;
 	height: 625px;
+	
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -14,58 +16,68 @@ body {
 	color: #464646;
 	background-color: #FFF;
 }
+/* End Page Setup */
 
 /* Navigation Bar */
-
 header {
 	width: 650px;
 	height: 30px;
-	background-color: #ebebeb;
+	
 	margin-left: auto;
 	margin-right: auto;
+
+	background-color: #ebebeb;
 }
 
 #navigation {
     width: 100%;
-    list-style-type: none;
+
     margin: 0;
     padding: 5px 10px 0 60px;
     overflow: hidden;
+
+    list-style-type: none;
 }
 
 .nav {
     width: 20%;
     height: 30%;
+    
     display: block;
     float: left;
     text-align: center;
-
+   
+    margin: 0px 0px 0 0px;
 }
 
-.nav>a:link, .nav>a:visited {
-    color: #464646;
+.nav>a:link, 
+.nav>a:visited {
     background-color: #ebebeb;
-    text-align: center;
-    padding: 4px;
+    color: #464646;
     text-decoration: none;
     font-family: 'Optima';
     font-size: 14px;
+    
+    text-align: center;
+    padding: 4px;
 }
 
-.nav>a:hover, .nav>a:active {
+.nav>a:hover, 
+.nav>a:active {
     color: #FFF;
 }
 /* End Navigation Bar */
 
+/* Top Half of Page */
 #me {
 	display: block;
 	margin: 25px 0 0 0;
 }
 
 /* Name and Subheading */
-
 #tophalf {
 	width:75%;
+	
 	margin-left: auto;
 	margin-right: auto;
 
@@ -83,11 +95,28 @@ h1 {
 .subheading {
 	font-family: 'Optima';
 	font-size: 14px;
+	color: #464646;
+
 	margin: 0px 18px 18px 18px;
+}
+
+.subheading>a, 
+.subheading>a:visited {
+	text-decoration: none;
+	font-family: 'Optima';
+	font-size: 14px;
 	color: #464646;
 }
-/* End Name and Subheading */
 
+.subheading>a:hover {
+	color: #081c58;
+	font-weight: bold; 
+
+}
+/* End Name and Subheading */
+/* End Top Half of Page */
+
+/* Bottom Half of Page */
 #bottomhalf {
 	width: 75%;
 	clear:left;
@@ -96,7 +125,8 @@ h1 {
 	margin-right: auto;
 }
 
-#left, #right {
+#left, 
+#right {
 	width: 225px;
 	float: left;
 
@@ -115,34 +145,43 @@ li {
 	margin-top: 10px;
 }
 
-li > a {
+a, 
+a:visited {
 	text-decoration: none;
+	font-family: 'Optima';
+	font-size: 14px;
+	line-height: 18px;
+	color: #464646;
 }
 
-li >a:hover {
+a:hover {
 	color: #081c58;
 	font-weight: bold; 
 }
-
-
 
 /* Footer */
 footer {
 	display: block;
 	clear: left;
+	
 	width: 650px;
 	height: 25px;
+	
 	background-color: #ebebeb;
+	
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 25px;
 }
 
 .footer {
+	padding: 5px 0 0 0;
+
 	color: #464646;
     background-color: #ebebeb;
     text-align: center;
     font-family: 'Optima';
     font-size: 12px;
-    padding: 5px 0 0 0;
 }
+/* End Footer */
+/* End Bottom Half of Page */

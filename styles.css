@@ -1,3 +1,4 @@
+/* Page Setup */
 body {
 	background-color: ;
 }
@@ -14,58 +15,67 @@ body {
 	color: #464646;
 	background-color: #FFF;
 }
+/* End Page Setup */
 
 /* Navigation Bar */
-
 header {
 	width: 650px;
 	height: 30px;
-	background-color: #ebebeb;
+	
 	margin-left: auto;
 	margin-right: auto;
+
+	background-color: #ebebeb;
 }
 
 #navigation {
     width: 100%;
-    list-style-type: none;
+    
     margin: 0;
     padding: 5px 10px 0 60px;
     overflow: hidden;
+
+    list-style-type: none;
 }
 
 .nav {
     width: 20%;
     height: 35px;
+    
     display: block;
     float: left;
     text-align: center;
-
 }
 
-.nav>a:link, .nav>a:visited {
-    color: #464646;
-    background-color: #ebebeb;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    font-family: 'Optima';
-    font-size: 14px;
+.nav>a:link, 
+.nav>a:visited {
+	background-color: #ebebeb;
+	color: #464646;
+   
+	padding: 4px;
+	
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Optima';
+	font-size: 14px;
 }
 
-.nav>a:hover, .nav>a:active {
+.nav>a:hover, 
+.nav>a:active {
     color: #FFF;
 }
 /* End Navigation Bar */
 
+/* Top Half of Page */
 #me {
 	display: block;
 	margin: 25px 0 0 0;
 }
 
 /* Name and Subheading */
-
 #tophalf {
 	width:75%;
+	
 	margin-left: auto;
 	margin-right: auto;
 
@@ -73,29 +83,30 @@ header {
 }
 
 h1 {
+	margin: 0px 45px 5px 45px;
+
+	color: #081c58;
 	font-family: 'CenturyGothic';
 	font-size: 55px;
-	color: #081c58;
-
-	margin: 0px 45px 5px 45px;
 }
 
 .subheading {
+	margin: 0px 18px 18px 18px;
+
+	color: #464646;
 	font-family: 'Optima';
 	font-size: 14px;
-	margin: 0px 18px 18px 18px;
-	color: #464646;
 }
 /* End Name and Subheading */
 
-
 /* Social Media Buttons */
-
 #social {
 	width: 75%;
-    list-style-type: none;
+    
     margin: 0;
     padding: 0 10px 0 75px;
+
+    list-style-type: none;
 }
 
 .socialcircle {
@@ -120,42 +131,55 @@ h1 {
 }
 .circle {
 	float: left;
-	text-align: center;
 	margin: 35px 20px 35px 20px;
+	
+	color: #464646;
 	font-family: 'Optima';
 	font-size: 16px;
-	color: #464646;
-	}
+	text-align: center;
+}
+
 .circleimage {
 	width: 100px;
 } 
 
-.title {
+.title, 
+.title:visited {
 	text-decoration: none;
+	color: #464646;
+	font-family: 'Optima';
+	font-size: 16px;	
 }
 
 .title:hover {
 	color: #081c58;
 	font-weight: bold; 
 } 
+/* End About Me, Resume and Contact Circles */
 
 /* Footer */
 footer {
 	display: block;
 	clear: left;
+	
 	width: 650px;
 	height: 25px;
+
 	background-color: #ebebeb;
+	
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 25px;
 }
 
 .footer {
+	padding: 5px 0 0 0;
+
 	color: #464646;
     background-color: #ebebeb;
     text-align: center;
     font-family: 'Optima';
-    font-size: 12px;
-    padding: 5px 0 0 0;
+    font-size: 12px;   
 }
+/* End Footer */
+/* End Bottom Half of Page */
